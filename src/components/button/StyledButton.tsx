@@ -3,14 +3,20 @@ import { ReactNode } from "react"
 
 interface StyledButtonProps{
   children: ReactNode
+  onClick: ()=> void
 }
 
 
-const StyledButton: React.FC<StyledButtonProps> = ({children}) => {
+const StyledButton: React.FC<StyledButtonProps> = ({children, onClick}) => {
+
+  
+
 
     return (
       <>
-        <StyleButton>{children}</StyleButton>
+        <StyleButton onClick={onClick}>
+          {children}
+        </StyleButton>
       </>
     )
   }

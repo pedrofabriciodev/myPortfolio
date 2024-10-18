@@ -12,6 +12,7 @@ import StyledButton from "../../../../components/button/StyledButton";
 
 const Hero = () => {
 
+  const fileUrl = "https://drive.google.com/file/d/1G6OAeT9ykzOsxSbFlMyx9Pg1gg8t01vA/view?usp=sharing";
     return (
       <>
 
@@ -29,16 +30,16 @@ const Hero = () => {
                       <Grid container display={"flex"} justifyContent={"center"} spacing={3} pt={3}>
 
                         <Grid size={{ xs: 12, md: 4 }} display={"flex"} justifyContent={"center"}>
-                          <StyledButton>  
+                          <StyledButton onClick={()=> window.open(fileUrl, "_blank")}>  
                             <DownloadIcon/>
-                            <Typography>Baixar CV</Typography>
+                            <Typography>Curriculo</Typography>
                           </StyledButton>
                         </Grid>
 
                         <Grid size={{ xs: 12, md: 4 }} display={"flex"} justifyContent={"center"}>
-                          <StyledButton>
+                          <StyledButton onClick={()=> window.location.href = 'mailto:pedrofabriciodev@gmail.com'}>
                             <EmailIcon/>
-                            <Typography>Contact Me</Typography>
+                            <Typography>Enviar Email</Typography>
                           </StyledButton>
                         </Grid>
 
