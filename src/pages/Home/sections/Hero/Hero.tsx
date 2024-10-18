@@ -22,11 +22,11 @@ const Hero = () => {
                       <StyleAvatar src={Avatar} />
                     </Grid>
                     <Grid size={{ xs: 12, md: 7 }}>
-                      <Typography color="primary.contrastText" variant="h1" textAlign={"center"}>Pedro Fabricio</Typography>
+                      <Typography color="primary.contrastText" variant="h1" textAlign={"center"} pb={2}>Pedro Fabricio</Typography>
                       <Typography color="primary.contrastText" variant="h2" textAlign={"center"}>I'm a Software Engineer</Typography>
 
 
-                      <Grid container display={"flex"} justifyContent={"center"} spacing={3}>
+                      <Grid container display={"flex"} justifyContent={"center"} spacing={3} pt={3}>
 
                         <Grid size={{ xs: 12, md: 4 }} display={"flex"} justifyContent={"center"}>
                           <StyledButton>  
@@ -58,7 +58,14 @@ const Hero = () => {
     height: "100vh",
     backgroundColor: theme.palette.primary.main,
     display:"flex",
-    alignItems: "center"
+    alignItems: "center",
+    [theme.breakpoints.up('xs')]: {
+      paddingTop: "80px"
+    },
+    [theme.breakpoints.up('md')]: {
+      paddingTop: "0px"
+    },
+
   }));
   
 
