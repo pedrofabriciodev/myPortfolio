@@ -11,11 +11,11 @@ let theme = createTheme({
   },
 
   typography:{
-    fontFamily:"Helvetica Neue",
+    fontFamily:"Helvetica Neue"
     // Mudar fontes depois
   }
 });
 
-theme = responsiveFontSizes(theme)
+theme = responsiveFontSizes(theme);
 
 export default theme;
