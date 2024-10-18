@@ -1,5 +1,5 @@
 
-import NavBar from "../../components/NavBar/NavBar"
+import NavBar from "../../components/NavBar/Navbar"
 import Hero from "./sections/Hero/Hero"
 
 const Home = () => {
