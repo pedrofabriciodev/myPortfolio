@@ -1,6 +1,6 @@
 import { AppBar, MenuItem, styled, Toolbar } from "@mui/material"
 
-const NavBar = () => {
+const InfoBar = () => {
 
     return (
       <>
@@ -22,5 +22,5 @@ const NavBar = () => {
   }));
   
   
-  export default NavBar
+  export default InfoBar;
   
