@@ -46,7 +46,7 @@ const InfoBar = () => {
         open={drawerOpen}
         onClose={toggleDrawer(false)}
         PaperProps={{
-          sx: { width: 140, height:160 }, 
+          sx: { width: 130, height:168, margin:2 }, 
         }}
       >
         <List>
