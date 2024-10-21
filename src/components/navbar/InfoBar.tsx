@@ -21,9 +21,9 @@ const InfoBar = () => {
           {isMdUp ? (
 
             <StyledMenu sx={{ display: { xs: "none", md: "flex" } }}>
-              <MenuItem>About</MenuItem>
-              <MenuItem>Skills</MenuItem>
-              <MenuItem>Projects</MenuItem>
+              <MenuItem component="a" href="#about">About</MenuItem>
+              <MenuItem component="a" href="#skills">Skills</MenuItem>
+              <MenuItem component="a" href="#projects">Projects</MenuItem>
             </StyledMenu>
 
           ):
@@ -50,13 +50,13 @@ const InfoBar = () => {
         }}
       >
         <List>
-          <ListItemButton>
+          <ListItemButton component='a' href="#about" onClick={toggleDrawer(false)}>
             <ListItemText primary="About" />
           </ListItemButton>
-          <ListItemButton>
+          <ListItemButton component='a' href="#skills" onClick={toggleDrawer(false)}>
             <ListItemText primary="Skills" />
           </ListItemButton>
-          <ListItemButton>
+          <ListItemButton component='a' href="#projects" onClick={toggleDrawer(false)}>
             <ListItemText primary="Projects" />
           </ListItemButton>
         </List>

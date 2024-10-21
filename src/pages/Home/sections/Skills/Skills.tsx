@@ -8,7 +8,7 @@ const Skills = () => {
   return (
     <>
 
-      <StyledSkills>
+      <StyledSkills id='skills'>
         <Container maxWidth='lg'>
           <Grid container spacing={4} display={'flex'}>
 

@@ -9,7 +9,7 @@ const About = () => {
   return (
     <>
 
-      <StyledAbout>
+      <StyledAbout id='about'>
         <Container maxWidth='lg'>
           <Grid container spacing={4}>
 
