@@ -1,5 +1,6 @@
 
 import InfoBar from "../../components/navbar/InfoBar"
+import About from "./sections/About/About"
 import Hero from "./sections/Hero/Hero"
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <>
         <InfoBar/>
         <Hero/>
+        <About/>
       </>
     )
   }
