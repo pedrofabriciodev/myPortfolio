@@ -13,7 +13,7 @@ const Skills = () => {
           <Grid container spacing={4} display={'flex'}>
 
             <Grid size={{ xs: 12, md: 12 }}>
-              <Typography color="primary.main" variant="h2" textAlign={"center"}>Habilidades</Typography>
+              <Typography color="primary.main" variant="h2" textAlign={"center"} pt={2}>Habilidades</Typography>
             </Grid>
 
             <Grid container size={{ xs: 12, md: 12 }} display={"flex"} justifyContent={'center'} spacing={2} >
