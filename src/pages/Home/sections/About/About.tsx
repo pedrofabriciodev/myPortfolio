@@ -81,7 +81,10 @@ const StyledInfo = styled("div")(({ theme }) => ({
   flexDirection: "column",
   alignItems: "center",
   paddingTop: 10,
-  margin: 0
+  margin: 0,
+  '&:hover': {
+      backgroundColor:theme.palette.secondary.light
+    }
 
 }));
 
