@@ -86,7 +86,7 @@ const Projects = () => {
       },
   }));
 
-  const StyleAvatar = styled("img")(({theme})=> ({
+  const StyleAvatar = styled("img")(()=> ({
     width:360,
     height:360,
   }))
