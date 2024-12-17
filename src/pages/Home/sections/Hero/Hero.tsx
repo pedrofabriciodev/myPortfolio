@@ -12,7 +12,7 @@ import StyledButton from "../../../../components/button/StyledButton";
 
 const Hero = () => {
 
-  const fileUrl = "https://drive.google.com/file/d/1G6OAeT9ykzOsxSbFlMyx9Pg1gg8t01vA/view?usp=sharing";
+  const fileUrl = "https://drive.google.com/file/d/1D5I3xFk9RZSDHmJ5_R5YSl-ycjmUUFW6/view?usp=sharing";
     return (
       <>
 
